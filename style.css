@@ -74,3 +74,21 @@ body {
 .equals:hover, .operator:hover, .clear:hover, .btn:hover {
     background-color: #3c6e71;
 }
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    .calculator {
+        width: 80%; 
+        padding: 20px;
+    }
+
+    .btn {
+        padding: 15px; 
+        font-size: 1em; 
+    }
+
+    .display {
+        font-size: 1.5em; 
+        padding: 15px 15px;
+}
+}
